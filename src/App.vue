@@ -106,10 +106,9 @@ export default {
 	},
 	methods: {
 		removeOldIncomingMessage(data) {
-			async function playAudio() {
-				const audio = new Audio(data.link);
-				audio.type = 'audio/wav';
-
+			async function playAudio(audio) {
+				// const audio = new Audio(data.link);
+				// audio.type = 'audio/wav';
 				try {
 					await audio.play();
 					console.log('Playing...');
@@ -122,26 +121,12 @@ export default {
 			if (this.displayNewMessage) {
 				this.displayNewMessage = false;
 				if (data.link) {
-					const audio = document.getElementById('response-voice');
-					//
-					// const audioContext = new AudioContext();
-					// // const element = document.querySelector(audio);
-					// const source = audioContext.createMediaElementSource(audio);
-					// source.connect(audioContext.destination);
-					// // audio.play();
-					// console.log(audio);
-					// audio.src = data.link;
-					// const playPromise = audio.play();
-					// if (playPromise !== undefined) {
-					// 	playPromise
-					// 		.then(() => {
-					// 		})
-					// 		.catch(error => {
-					// 			console.log(error);
-					// 		});
-					// }
+					// const audio = document.getElementById('response-voice');
+					const audio = new Audio(data.link);
+					audio.type = 'audio/wav';
+					audio.crossOrigin = 'anonymous';
 
-					playAudio();
+					playAudio(audio);
 
 					// if (playPromise !== null) {
 					// 	playPromise.catch(() => { audio.play(); });
