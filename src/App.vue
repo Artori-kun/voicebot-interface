@@ -33,7 +33,7 @@
 					/>
 				</circle>
 			</svg>
-			<p>Waiting for connection ...</p>
+			<p>Đang chờ kết nối từ server ...</p>
 		</div>
 		<!-- Main components (usually header -> chat -> footer) -->
 		<Header v-if="chatStart"/>
@@ -74,7 +74,7 @@ export default {
 	mixins: [MessageHandlerMixin],
 	data() {
 		return {
-			welcomeMessage: 'Hello, I\'m Sara. How can I help you?',
+			welcomeMessage: 'Xin chào. Tui là Xỉu. Tui giúp gì được cho bạn?',
 			displayNewMessage: true,
 			audio: undefined
 		};
@@ -194,14 +194,14 @@ export default {
 	width: 100%;
 	height: 100%;
 	background: rgb(0, 0, 0);
-	background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(123, 1, 188, 1) 91%);
-	background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(123, 1, 188, 1) 91%);
-	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(123, 1, 188, 1) 91%);
+	background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(1, 54, 188) 91%);
+	background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(54, 87, 255) 91%);
+	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(54, 111, 255) 91%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#7b01bc",GradientType=1);
 	@media only screen and (max-width: 600px) {
-		background: -moz-linear-gradient(13deg, rgba(0, 0, 0, 1) 0%, rgba(123, 1, 188, 1) 55%);
-		background: -webkit-linear-gradient(13deg, rgba(0, 0, 0, 1) 0%, rgba(123, 1, 188, 1) 55%);
-		background: linear-gradient(13deg, rgba(0, 0, 0, 1) 0%, rgba(123, 1, 188, 1) 55%);
+		background: -moz-linear-gradient(13deg, rgba(0, 0, 0, 1) 0%, rgb(54, 118, 255) 55%);
+		background: -webkit-linear-gradient(13deg, rgba(0, 0, 0, 1) 0%, rgb(54, 101, 255) 55%);
+		background: linear-gradient(13deg, rgba(0, 0, 0, 1) 0%, rgb(54, 87, 255) 55%);
 		filter: progid:DXImageTransform.Microsoft.gradient(
 			startColorstr="#000000",
 			endColorstr="#7b01bc",

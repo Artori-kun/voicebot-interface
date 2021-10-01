@@ -1,11 +1,12 @@
 <template>
 	<div>
 		<a href="https://rasa.com/" target="_blank">
-			<img class="logo" src="@/assets/icon/logo.png">
+			<img class="logo" src="@/assets/icon/Xiu_icon.jpg">
 		</a>
 		<p>
-			Want to experience it for yourself?
-			<br>You can test our voice assistant here.
+      <b style="font-size: x-large">Xỉu đang ngủ nè (ﾐᵕᆽᵕﾐ)</b>
+      <br>
+			<br>Gọi tui dậy đi.
 		</p>
 		<div style="position: relative; height: 50px;" class="container-fluid">
 			<img class="arrow" src="@/assets/icon/down-arrow.svg">
@@ -19,8 +20,8 @@ export default {};
 
 <style lang="scss" scoped>
 .logo {
-	width: 104px;
-	height: 49px;
+	width: 194px;
+	height: 190px;
 	margin: 0 auto;
 	display: block;
 	margin-top: 20vh;

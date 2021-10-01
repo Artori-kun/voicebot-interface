@@ -273,12 +273,12 @@ export default {
 		height: 75px;
 		border-radius: 37.5px;
 		border: none;
-		box-shadow: -10px -10px 15px rgba(123, 1, 188, 1) inset,
+		box-shadow: -10px -10px 15px rgb(1, 32, 188) inset,
 			-1px -1px 15px rgba(0, 0, 0, 0.8);
-		background: rgb(187,133,216);
-		background: -moz-linear-gradient(151deg, rgba(187,133,216,1) 0%, rgba(123,1,188,1) 89%);
-		background: -webkit-linear-gradient(151deg, rgba(187,133,216,1) 0%, rgba(123,1,188,1) 89%);
-		background: linear-gradient(151deg, rgba(187,133,216,1) 0%, rgba(123,1,188,1) 89%);
+		background: rgb(133, 162, 216);
+		background: -moz-linear-gradient(151deg, rgb(133, 216, 204) 0%, rgb(1, 10, 188) 89%);
+		background: -webkit-linear-gradient(151deg, rgb(133, 206, 216) 0%, rgb(1, 45, 188) 89%);
+		background: linear-gradient(151deg, rgb(133, 213, 216) 0%, rgb(1, 45, 188) 89%);
 		filter: progid:DXImageTransform.Microsoft.gradient(
 			startColorstr="#bb85d8",
 			endColorstr="#7b01bc",
