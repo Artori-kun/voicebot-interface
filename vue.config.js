@@ -17,6 +17,10 @@ module.exports = {
 		}
 	},
 	configureWebpack: {
+		devServer: {
+			headers: { 'Access-Control-Allow-Origin': '*' },
+			// https: true
+		},
 		resolve: {
 			extensions: ['.js'],
 			alias: {

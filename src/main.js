@@ -30,9 +30,9 @@ Vue.component('font-awesome-icon', FontAwesomeIcon);
 // 	})
 // );
 
-const ioInstance = socket('http://localhost:5005', {
+const ioInstance = socket('rasa-url', {
 	reconnection: true,
-	reconnectionDelay: 500,
+	reconnectionDelay: 5000,
 	maxReconnectionAttempts: Infinity
 });
 Vue.use(VueSocketIO, ioInstance, {

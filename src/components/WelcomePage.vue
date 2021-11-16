@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<a href="https://rasa.com/" target="_blank">
-			<img class="logo" src="@/assets/icon/Xiu_icon.jpg">
+			<img class="logo" src="@/assets/icon/Xiu_icon2.jpg">
 		</a>
 		<p>
       <b style="font-size: x-large">Xỉu đang ngủ nè (ﾐᵕᆽᵕﾐ)</b>
